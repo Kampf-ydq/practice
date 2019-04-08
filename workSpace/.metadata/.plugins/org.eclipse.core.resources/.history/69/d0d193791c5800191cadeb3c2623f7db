@@ -1,0 +1,14 @@
+package com.moon.service.impl;
+
+import com.moon.common.pojo.MoonResult;
+import com.moon.service.ContactService;
+
+public class ContactServiceImpl implements ContactService {
+
+	@Override
+	public MoonResult getAllContact() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
