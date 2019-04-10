@@ -1,8 +1,0 @@
-package com.moon.service;
-
-import com.moon.common.pojo.MoonResult;
-
-public class FanService {
-
-	MoonResult getFanParamByNumber(String number);
-}

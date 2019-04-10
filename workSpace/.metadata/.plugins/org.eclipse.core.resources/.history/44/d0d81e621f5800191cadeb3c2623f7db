@@ -1,9 +1,0 @@
-package com.moon.service;
-
-import com.moon.common.pojo.MoonResult;
-
-public interface ContactService {
-
-	MoonResult getAllContact();
-	MoonResult createContact();
-}

@@ -1,9 +1,0 @@
-package com.moon.service;
-
-import com.moon.pojo.TbUser;
-
-public interface UserService {
-
-	TbUser getUserById(int userId);
-	
-}
