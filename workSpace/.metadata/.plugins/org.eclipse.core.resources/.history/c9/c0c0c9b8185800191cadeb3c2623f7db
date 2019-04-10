@@ -1,0 +1,19 @@
+package com.moon.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.moon.common.pojo.MoonResult;
+import com.moon.mapper.TbParamMapper;
+import com.moon.service.FanService;
+
+public class FanServiceImpl implements FanService {
+
+	@Autowired
+	private TbParamMapper paramMapper;
+	@Override
+	public MoonResult getFanParamByNumber(String number) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
